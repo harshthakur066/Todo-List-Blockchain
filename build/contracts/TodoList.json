@@ -1,28 +1,12 @@
 {
   "contractName": "TodoList",
-  "abi": [
-    {
-      "constant": true,
-      "inputs": [],
-      "name": "taskCount",
-      "outputs": [
-        {
-          "internalType": "uint256",
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    }
-  ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"taskCount\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Code/BLockchain/To do list/contracts/TodoList.sol\":\"TodoList\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Code/BLockchain/To do list/contracts/TodoList.sol\":{\"keccak256\":\"0x508dca3b12648f0b5a68e8a0af791caa5954f55607e3e7d8a7fabaf530754f31\",\"urls\":[\"bzz-raw://f8a0e6c1ad18cc405cd11de5bb4a02e694c06cea37055741b64a096364b037ff\",\"dweb:/ipfs/QmY6vDiAkiMQumGV7QxPxd3r4Ny1oDhgSfaUbxb3vvzxbH\"]}},\"version\":1}",
-  "bytecode": "0x608060405260008055348015601357600080fd5b506080806100226000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063b6cb58a514602d575b600080fd5b60336045565b60408051918252519081900360200190f35b6000548156fea265627a7a723158200801119984bad1f80998fdf2e3070683615254446dd0f525bd634970a55b1c3f64736f6c63430005100032",
-  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c8063b6cb58a514602d575b600080fd5b60336045565b60408051918252519081900360200190f35b6000548156fea265627a7a723158200801119984bad1f80998fdf2e3070683615254446dd0f525bd634970a55b1c3f64736f6c63430005100032",
-  "sourceMap": "27:57:1:-;;;79:1;52:28;;27:57;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:57:1;;;;;;;",
-  "deployedSourceMap": "27:57:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:57:1;;;;;;;;;;;;;;;;;;;52:28;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;:::o",
-  "source": "pragma solidity ^0.5.0;\r\n\r\ncontract TodoList {\r\n    uint256 public taskCount = 0;\r\n}\r\n",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Code/BLockchain/To do list/contracts/TodoList.sol\":\"TodoList\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Code/BLockchain/To do list/contracts/TodoList.sol\":{\"keccak256\":\"0x26a9e7b7c7119b685fbf1ecfaf5757d69202afaa3878c24eaf5efa6289790c9c\",\"urls\":[\"bzz-raw://de6863b42a3c31d30e6f23bf277969c33b03b71e08fca6cb8dbc5241d66ffb58\",\"dweb:/ipfs/QmabjcaMcKcQ3qmxRDopRpKZi3j9VMgQhRQ4ABAri4AbSW\"]}},\"version\":1}",
+  "bytecode": "0x608060405260008055348015601357600080fd5b50603e8060216000396000f3fe6080604052600080fdfea265627a7a72315820f86e30e5cd5d7294de530fc88ba154de5f5d6dff792fbd9bac9906a658c90ecf64736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a72315820f86e30e5cd5d7294de530fc88ba154de5f5d6dff792fbd9bac9906a658c90ecf64736f6c63430005100032",
+  "sourceMap": "27:47:1:-;;;69:1;52:18;;27:47;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:47:1;;;;;;;",
+  "deployedSourceMap": "27:47:1:-;;;;;",
+  "source": "pragma solidity ^0.5.0;\r\n\r\ncontract TodoList {\r\n    uint taskCount = 0;\r\n}\r\n",
   "sourcePath": "C:\\Code\\BLockchain\\To do list\\contracts\\TodoList.sol",
   "ast": {
     "absolutePath": "/C/Code/BLockchain/To do list/contracts/TodoList.sol",
@@ -64,7 +48,7 @@
             "name": "taskCount",
             "nodeType": "VariableDeclaration",
             "scope": 42,
-            "src": "52:28:1",
+            "src": "52:18:1",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -73,9 +57,9 @@
             },
             "typeName": {
               "id": 39,
-              "name": "uint256",
+              "name": "uint",
               "nodeType": "ElementaryTypeName",
-              "src": "52:7:1",
+              "src": "52:4:1",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -91,7 +75,7 @@
               "kind": "number",
               "lValueRequested": false,
               "nodeType": "Literal",
-              "src": "79:1:1",
+              "src": "69:1:1",
               "subdenomination": null,
               "typeDescriptions": {
                 "typeIdentifier": "t_rational_0_by_1",
@@ -99,14 +83,14 @@
               },
               "value": "0"
             },
-            "visibility": "public"
+            "visibility": "internal"
           }
         ],
         "scope": 43,
-        "src": "27:57:1"
+        "src": "27:47:1"
       }
     ],
-    "src": "0:86:1"
+    "src": "0:76:1"
   },
   "legacyAST": {
     "absolutePath": "/C/Code/BLockchain/To do list/contracts/TodoList.sol",
@@ -148,7 +132,7 @@
             "name": "taskCount",
             "nodeType": "VariableDeclaration",
             "scope": 42,
-            "src": "52:28:1",
+            "src": "52:18:1",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -157,9 +141,9 @@
             },
             "typeName": {
               "id": 39,
-              "name": "uint256",
+              "name": "uint",
               "nodeType": "ElementaryTypeName",
-              "src": "52:7:1",
+              "src": "52:4:1",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -175,7 +159,7 @@
               "kind": "number",
               "lValueRequested": false,
               "nodeType": "Literal",
-              "src": "79:1:1",
+              "src": "69:1:1",
               "subdenomination": null,
               "typeDescriptions": {
                 "typeIdentifier": "t_rational_0_by_1",
@@ -183,22 +167,30 @@
               },
               "value": "0"
             },
-            "visibility": "public"
+            "visibility": "internal"
           }
         ],
         "scope": 43,
-        "src": "27:57:1"
+        "src": "27:47:1"
       }
     ],
-    "src": "0:86:1"
+    "src": "0:76:1"
   },
   "compiler": {
     "name": "solc",
     "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x50A82E52d04dDAf9EB5f101683d12920aBD1d8d1",
+      "transactionHash": "0x599cf707dbb0f78610e3c3dfc0f0a26b7a09ef22750d0eb650c1eab68113dfae"
+    }
+  },
   "schemaVersion": "3.0.23",
-  "updatedAt": "2020-03-14T10:12:02.810Z",
+  "updatedAt": "2020-03-15T08:04:55.685Z",
+  "networkType": "ethereum",
   "devdoc": {
     "methods": {}
   },
